@@ -9,7 +9,28 @@ const words = [
   { text: "Code", imgPath: "/images/code.svg" },
 ];
 
-const navLinks = [
+const navOther = [
+  {
+    name: "Home",
+    link: "/",
+  },
+  {
+    name: "Internships",
+    link: "/internships",
+  },
+  {
+    name: "Projects",
+    link: "/projects",
+  },
+
+  {
+    name: "Resume",
+    link: "https://drive.google.com/file/d/1hplroFtrA15dv7YzYOO_73am13nNMUEV/view?usp=sharing",
+  },
+
+];
+
+const navHome = [
   {
     name: "Home",
     link: "/",
@@ -264,4 +285,4 @@ const dataScienceProjects = [
 ]
 
 
-export { words, navLinks,expCards, expLogos, techStackIcons, techStackImgs,softwareProjects,dataScienceProjects };
+export { words, navHome, navOther,expCards, expLogos, techStackIcons, techStackImgs,softwareProjects,dataScienceProjects };

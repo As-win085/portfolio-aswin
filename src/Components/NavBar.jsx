@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
-import { navLinks } from "../constants";
+import { navHome, navOther } from "../constants";
 import { Link } from "react-router-dom";
 import { Menu, X,ArrowLeft } from "lucide-react";
 
 const NavBar = ({home}) => {
   const [scrolled, setScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+
+  const navLinks = home ? navHome : navOther;
 
   useEffect(() => {
     const handleScroll = () => {
