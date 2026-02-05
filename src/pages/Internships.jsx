@@ -1,5 +1,5 @@
 import Experience from '../sections/Experience'
-import NavBar from '../components/NavBar'
+import NavBar from '../components/NavBar';
 
 const Internships = () => {
     return (
