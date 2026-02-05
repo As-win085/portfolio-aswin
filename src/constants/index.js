@@ -151,7 +151,7 @@ const techStackImgs = [
 const softwareProjects = [
   {
     name: "Smart Expense and Budget Management System",
-    img: "/images/slider3.png",
+    img: "/images/expense.png",
     description: [
       "A Smart Expense & Budget Management System helps users track income and expenses in a structured and organized way.",
       "Enables category-wise expense recording and budget creation to control monthly spending.",
@@ -161,11 +161,11 @@ const softwareProjects = [
     ],
     gitRepo: "https://github.com/As-win085/smart-expense-and-budget-management-system",
     techStack: ["React.js", "Python", "Django", "mySQL","Celery"],
-    background: "from-orange-500/20 via-red-500/10 to-black",
+    background: "from-emerald-500/20 via-green-500/10 to-black",
   },
   {
     name: "Recruitment API",
-    img: "/images/slider3.png",
+    img: "/images/Recruitment.png",
     description: [
       "A Recruitment API provides a set of endpoints for managing job listings, candidate applications, and recruitment workflows.",
       "Supports CRUD operations for job postings, candidate profiles, and application tracking.",
@@ -175,11 +175,11 @@ const softwareProjects = [
     ],
     gitRepo: "https://github.com/As-win085/recruitment-api",
     techStack: ["Node.js", "Express.js", "MongoDB"],
-    background: "linear-gradient(135deg, #2c0a0a, #ff6600)",
+    background: "from-indigo-500/25 via-blue-500/10 to-slate-950",
   },
   {
     name: "Twitter Clone API",
-    img: "/images/slider3.png",
+    img: "/images/Twitter.png",
     description: [
       "A Twitter Clone API provides a set of endpoints for managing tweets, user profiles, and social interactions.",
       "Supports CRUD operations for tweets, user profiles, and follower relationships.",
@@ -187,11 +187,11 @@ const softwareProjects = [
     ],
     gitRepo: "https://github.com/As-win085/Software-Development/tree/main/Node.js%26Express/twitter-clone-backend",
     techStack: ["Node.js", "Express.js", "MySQL"],
-    background: "linear-gradient(135deg, #2c0a0a, #ff6600)",
+    background: "from-purple-600/20 via-indigo-500/10 to-black",
   },
    {
     name: "Weather Forecasting",
-    img: "/images/slider3.png",
+    img: "/images/weather.png",
     description: [
       "A Smart Expense & Budget Management System helps users track income and expenses in a structured and organized way.",
       "Enables category-wise expense recording and budget creation to control monthly spending.",
@@ -211,7 +211,7 @@ const softwareProjects = [
 const dataScienceProjects = [
   {
     name: "Digi Net",
-    img: "/images/slider3.png",
+    img: "/images/Digi.png",
     description: [
       "Deep Learning Framework: The model is built using TensorFlow and Keras, leveraging a Convolutional Neural Network (CNN) specifically optimized for spatial hierarchy in 2D images.Preprocessing Pipeline: To ensure faster convergence, the $28 \times 28$ grayscale images are normalized to a $[0, 1]$ range, and the labels are converted via one-hot encoding for categorical classification.",
       "Hierarchical Architecture: The network utilizes multiple Convolutional layers for feature extraction (edges, curves, and loops) and Max-Pooling layers for spatial downsampling to reduce computational load.",
@@ -220,11 +220,11 @@ const dataScienceProjects = [
     ],
     gitRepo: "https://github.com/As-win085/Data-Science-Projects/tree/main/Deep-Learning/DigiNet%3A%20(Handwritten-Digit-Recognition)",
     techStack: ["Python", "TensorFlow", "Keras", "Matplotlib","Seaborn","Numpy","Pandas"],
-    background: "from-blue-500/20 via-purple-500/10 to-black",
+    background: "from-cyan-500/20 via-blue-600/10 to-black",
   },
   {
     name: "Fashon Image Classifier",
-    img: "/images/slider3.png",
+    img: "/images/Fashon.png",
     description: [
       "Hierarchical Feature Extraction: The model utilizes multiple Convolutional layers to detect low-level features (edges of a sleeve) and high-level features (the silhouette of a sneaker), providing a deeper understanding of garment structure.",
       "Advanced Regularization: To combat the complexity of fashion textures, the architecture integrates Dropout and Batch Normalization, ensuring the model doesn't overfit to specific patterns in the training set and remains stable during learning.",
@@ -233,11 +233,11 @@ const dataScienceProjects = [
     ],
     gitRepo: "https://github.com/As-win085/Data-Science-Projects/tree/main/Deep-Learning/Fashion-Image-Classifier",
     techStack: ["Python", "TensorFlow", "Keras", "Matplotlib","Seaborn","Numpy","Pandas"],
-    background: "from-blue-500/20 via-purple-500/10 to-black",
+    background: "from-orange-500/20 via-red-500/10 to-black",
   },
   {
     name: "Aqua Check: Safe Water Potability Classifier",
-    img: "/images/slider3.png",
+    img: "/images/Aqua.png",
     description: [
       "Implemented and tuned an SVM classifier, achieving strong performance in classifying water potability.",
       "Applied techniques such as feature scaling (StandardScaler/MinMaxScaler) and data visualization for deeper insights.",
@@ -250,7 +250,7 @@ const dataScienceProjects = [
   },
   {
     name: "Gluco-Track: Blood Glucose Level Prediction System",
-    img: "/images/slider3.png",
+    img: "/images/Gluco.png",
     description: [
       "Multimodal Data Integration: The system synthesizes diverse non-invasive data streams—including heart rate (BPM), skin temperature, and macronutrient intake—to identify complex patterns that influence glycemic variability.",
       "Regression-Based Forecasting: Unlike simple classifiers, this project utilizes advanced Regression algorithms (such as Random Forest Regressor or Gradient Boosting) to predict continuous numerical values for blood glucose levels ($mg/dL$).",
@@ -259,7 +259,7 @@ const dataScienceProjects = [
     ],
     gitRepo: "https://github.com/As-win085/Data-Science-Projects/tree/main/supervised/Gluco-Track",
     techStack: ["Python", "Matplotlib","Seaborn","Numpy","Pandas"],
-    background: "from-blue-500/20 via-purple-500/10 to-black",
+    background: "from-zinc-500/20 via-gray-500/10 to-black",
   },
 ]
 
