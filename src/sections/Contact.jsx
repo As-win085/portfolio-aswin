@@ -88,7 +88,7 @@ const Contact = () => {
                     id="message"
                     name="message"
                     value={form.message}
-                    className="placeholder-gray-400"
+                    className="placeholder-gray-400 text-black"
                     onChange={handleChange}
                     placeholder="How can I help you?"
                     rows="5"
