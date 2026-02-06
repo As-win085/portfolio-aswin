@@ -5,10 +5,8 @@ import { Link } from "react-router-dom";
 
 const ProjectSlider = ({ projects, accent }) => {
   const [index, setIndex] = useState(0);
-  const [direction, setDirection] = useState(1);
 
   const paginate = (dir) => {
-    setDirection(dir);
     setIndex((prev) => (prev + dir + projects.length) % projects.length);
   };
 
