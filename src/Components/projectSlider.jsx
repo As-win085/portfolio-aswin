@@ -7,6 +7,7 @@ const ProjectSlider = ({ projects, accent }) => {
   const [index, setIndex] = useState(0);
 
   const paginate = (dir) => {
+
     setIndex((prev) => (prev + dir + projects.length) % projects.length);
   };
 
