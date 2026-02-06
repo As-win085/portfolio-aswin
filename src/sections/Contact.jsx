@@ -20,7 +20,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    setLoading(true);
     try {
       await emailjs.sendForm(
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
@@ -34,6 +34,8 @@ const Contact = () => {
     } catch (err) {
       console.error(err);
       alert("Failed to send message ❌");
+    } finally {
+      setLoading(false);
     }
   };
 
