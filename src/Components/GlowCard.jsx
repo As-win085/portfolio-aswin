@@ -1,5 +1,4 @@
 import { useRef } from "react";
-import {expCards} from "../constants";
 
 const GlowCard = ({ card, index, children }) => {
   // refs for all the cards
