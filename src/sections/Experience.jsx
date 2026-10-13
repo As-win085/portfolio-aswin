@@ -3,8 +3,8 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import { expCards } from "../constants";
-import TitleHeader from "../components/TitleHeader";
-import GlowCard from "../components/GlowCard";
+import TitleHeader from "../Components/TitleHeader";
+import GlowCard from "../Components/GlowCard";
 
 gsap.registerPlugin(ScrollTrigger);
 

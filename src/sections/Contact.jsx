@@ -1,8 +1,8 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
-import TitleHeader from "../components/TitleHeader";
-import ContactExperience from "../components/models/contact/ContactExperience";
+import TitleHeader from "../Components/TitleHeader";
+import ContactExperience from "../Components/models/contact/ContactExperience";
 
 const Contact = () => {
   const formRef = useRef(null);
@@ -20,7 +20,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    setLoading(true);
     try {
       await emailjs.sendForm(
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
@@ -34,6 +34,8 @@ const Contact = () => {
     } catch (err) {
       console.error(err);
       alert("Failed to send message ❌");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -86,7 +88,7 @@ const Contact = () => {
                     id="message"
                     name="message"
                     value={form.message}
-                    className="placeholder-gray-400"
+                    className="placeholder-gray-400 text-black"
                     onChange={handleChange}
                     placeholder="How can I help you?"
                     rows="5"
@@ -94,7 +96,7 @@ const Contact = () => {
                   />
                 </div>
 
-                <button type="submit">
+                <button type="submit" disabled={loading}>
                   <div className="cta-button group">
                     <div className="bg-circle" />
                     <p className="text">

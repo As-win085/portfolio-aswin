@@ -2,7 +2,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import "./index.css"
 import { words } from "../constants";
-import HeroExperience from "../components/models/hero_models/HeroExperience";
+import HeroExperience from "../Components/models/hero_models/HeroExperience";
 
 const Hero = () => {
   useGSAP(() => {
