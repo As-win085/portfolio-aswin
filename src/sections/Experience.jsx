@@ -3,8 +3,8 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import { expCards } from "../constants";
-import TitleHeader from "../Components/TitleHeader";
-import GlowCard from "../Components/GlowCard";
+import TitleHeader from "../components/TitleHeader";
+import GlowCard from "../components/GlowCard";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -117,7 +117,7 @@ const Experience = () => {
                       <div className="gradient-line w-1 h-full" />
                     </div>
                     <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
-                      <div className="timeline-logo bg-white rounded-full p-3">
+                      <div className="timeline-logo rounded-full p-3" style={{ backgroundColor: card.logoBg || '#ffffff' }}>
                         <img src={card.logoPath} alt="logo" className=" " />
                       </div>
                       <div>
@@ -137,6 +137,16 @@ const Experience = () => {
                             )
                           )}
                         </ul>
+                        {card.certificate && (
+                          <a
+                            href={card.certificate}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block mt-6 px-5 py-2 rounded-full text-sm font-semibold border border-[#F0B429] text-[#F0B429] hover:bg-[#F0B429] hover:text-black transition"
+                          >
+                            View Certificate
+                          </a>
+                        )}
                       </div>
                     </div>
                   </div>

@@ -59,10 +59,31 @@ const navHome = [
 
 const expCards = [
   {
+    review: "Aionpixel Technologies Private Limited is a Kochi-based, AI-driven software and technology platform founded in 2025 that provides advanced digital transformations, cloud-based solutions, and specialized career internships to aspiring professionals. It offers industry-aligned engineering systems in fields like advanced AI, Machine Learning, Computer Vision, and Natural Language Processing, aiming to bridge the enterprise operational gap with automated, predictive, and real-time intelligent solutions.",
+    imgPath: "/images/logos/Aionpixel.png",
+    name: "Aionpixel",
+    logoPath: "/images/logos/Aionpixel.png",
+    logoBg: "#F0B429",
+    certificate: "/certificates/AswinBiju_Aionpixel Internship Letter.pdf",
+    title: "Full Stack Developer Trainee",
+    date: "March 2025 - August 2025",
+    responsibilities: [
+      "Developed and maintained application modules using Node.js, Express.js, Python, React.js, and PostgreSQL.",
+      "Built REST APIs and reusable backend components for finance, fee management, payroll, payments, and reporting.",
+      "Contributed to Razorpay and Easebuzz payment gateway integrations, including webhook handling, idempotency, transaction processing, and reconciliation.",
+      "Worked with PostgreSQL and Redis to support database-driven features and background processing.",
+      "Contributed to payroll workflows involving PF, ESIC, Professional Tax, TDS, attendance-based Loss of Pay, and bulk processing using BullMQ.",
+      "Supported multi-tenant application architecture using schema-per-tenant PostgreSQL and AES-256 encryption.",
+      "Debugged application issues, investigated defects, and helped improve software reliability and maintainability.",
+      "Collaborated with developers on requirements analysis, feature implementation, code reviews, testing, and application maintenance.",
+    ],
+  },
+  {
     review: "Druv360° is a Kochi-based, comprehensive startup incubator and business consultancy, with a branch in Vytila, Kerala, specializing in nurturing MSMEs and startups through services like business planning, legal compliance, and digital marketing. They focus on transforming ideas into reality by providing mentorship, and technical support to enhance business growth and digital presence. ",
     imgPath: "/images/druvImg.png",
     name: "Druv360°",
     logoPath: "/images/druv.png",
+    certificate: "/certificates/Aswin Biju Experience Letter.pdf",
     title: "Python Full Stack Developer",
     date: "October 2025 - Present",
     responsibilities: [
@@ -76,6 +97,7 @@ const expCards = [
     review: "Quest Innovative Solutions is an ISO-certified IT company founded in 2000 and based in Cochin, India, specializing in custom software development, embedded systems, and IT training. They provide services in web/mobile app development, cyber security, and cloud consulting for international clients. The firm is known for developing operational software to minimize human intervention. ",
     imgPath: "/images/quest.png",
     logoPath: "/images/quest.png",
+    certificate: "/certificates/Aswin Internship Completion Certificate.jpg",
     name: "Quest Innovative Solutions",
     title: "Data Science Intern",
     date: "March 2025 - May 2025",
@@ -90,6 +112,7 @@ const expCards = [
     review: "Verzeo is a Bengaluru-based, AI-driven EdTech platform founded in 2018 that provides multi-disciplinary training, internships, and project-based learning to students. It offers mentor-led, online courses in fields like AI and technology, aiming to bridge the industry-academia gap with accessible, live, and interactive education. ",
     imgPath: "/images/verzeoImg.png",
     logoPath: "/images/verzeo.png",
+    certificate: "/certificates/Verzo.jpg",
     name: "Verzeo",
     title: "Cloud Computing Intern",
     date: "December 2023 - February 2025",

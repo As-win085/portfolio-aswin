@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ProjectSlider from "../Components/projectSlider";
+import ProjectSlider from "../components/projectSlider";
 import {
   softwareProjects,
   dataScienceProjects,
