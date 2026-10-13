@@ -49,7 +49,7 @@ const navHome = [
   },
   {
     name: "Resume",
-    link: "https://drive.google.com/file/d/1hplroFtrA15dv7YzYOO_73am13nNMUEV/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1MWXVm4a9HfP-s7BTor8WZUjaNaDZW5bu/view?usp=drive_link",
   },
   {
     name: "Contact",
