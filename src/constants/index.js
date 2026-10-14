@@ -115,7 +115,7 @@ const expCards = [
     certificate: "/certificates/Verzo.jpg",
     name: "Verzeo",
     title: "Cloud Computing Intern",
-    date: "December 2023 - February 2025",
+    date: "December 2023 - February 2024",
     responsibilities: [
       "Worked with Microsoft Azure services to deploy and manage cloud resources such as virtual machines, storage, and networking components.",
       "Assisted in configuring cloud environments, monitoring resources, and understanding cost management and security basics in Azure.",
